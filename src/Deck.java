@@ -46,6 +46,10 @@ class Deck {
         }
     }
 
+    Card returnTop() {
+        return cards[cards.length - 1];
+    }
+
     private void createDeck(int number){
         String color = "Error";
         int colorVal = -1;
